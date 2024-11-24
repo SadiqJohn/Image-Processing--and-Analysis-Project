@@ -1,42 +1,40 @@
-# Image Processing Project - Flooded House Analysis
+# Homework 1 - Image Processing and MATLAB Tutorial
 
 ## Overview
-This project demonstrates fundamental image processing techniques using MATLAB. The project uses a sample image, "Flooded_house.jpeg," to apply various operations such as extracting color channels, manipulating pixel data, and analyzing image components.
+This project demonstrates fundamental image processing techniques and MATLAB scripting concepts. The tasks involve working with an image of a flooded house, processing its color channels, and analyzing its components.
 
-### Features
+### Files
+- **`HW1.m`**: MATLAB script implementing various image processing tasks.
+- **`Flooded_house.jpeg`**: Sample image used for processing.
+- **`COMPE 565 HW1.pdf`**: Original assignment instructions.
+- **`Schematic_Walkthrough_-_SEA-330_Amplifier_Test_Fixture.docx`**: Additional reference material.
+- **`Matlab Tutorial`**: Supporting resources for learning MATLAB.
+
+### Key Tasks
 1. **Display Original Image**:
-   - Load and visualize a sample image.
-   - Add custom titles to displayed figures.
+   - Load and visualize the input image using MATLAB.
+2. **Extract and Analyze Color Channels**:
+   - Isolate red, green, and blue channels.
+   - Reconstruct grayscale images for each channel.
+3. **Image Manipulation**:
+   - Apply basic operations to analyze and transform the image.
 
-2. **Color Channel Extraction**:
-   - Isolate individual color bands (Red, Green, and Blue) from the image.
-   - Reconstruct and visualize each band as separate grayscale images.
-
-3. **Image Analysis** (if applicable in other parts of the script):
-   - Perform basic pixel-level operations.
-   - Analyze image components for visualization or further processing.
-
----
-
-## Skills Demonstrated
-- **Image Manipulation**:
-  - Reading and displaying images in MATLAB.
-  - Extracting and reconstructing individual color channels.
-- **Matrix Operations**:
-  - Handling image data as matrices.
-  - Constructing and manipulating RGB color bands using matrix concatenation.
-- **MATLAB Programming**:
-  - Using built-in MATLAB functions for image processing (`imread`, `imshow`, `cat`).
-  - Structuring reusable code with modular sections for specific tasks.
+### Skills Demonstrated
+- Image loading and visualization.
+- Matrix manipulation for color channel extraction.
+- MATLAB scripting and debugging.
 
 ---
 
-## How to Run
-1. Ensure MATLAB is installed on your system.
-2. Place `HW1.m` and `Flooded_house.jpeg` in the same directory.
-3. Open `HW1.m` in MATLAB and uncomment the relevant sections for the desired task.
-4. Run the script to view the results.
+## How to Use
+1. Open `HW1.m` in MATLAB.
+2. Ensure `Flooded_house.jpeg` is in the same directory.
+3. Run the script to execute individual tasks.
+4. Follow inline comments to understand specific implementations.
 
 ---
 
-## Directory Structure
+## Future Improvements
+- Add edge detection or segmentation techniques.
+- Automate color channel comparison and analysis.
+
