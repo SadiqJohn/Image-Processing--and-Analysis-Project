@@ -33,8 +33,8 @@ This project demonstrates fundamental image processing techniques using MATLAB. 
 
 ## How to Run
 1. Ensure MATLAB is installed on your system.
-2. Place `HW1.m` and `Flooded_house.jpeg` in the same directory.
-3. Open `HW1.m` in MATLAB and uncomment the relevant sections for the desired task.
+2. Place `FloodedHouse.m` and `Flooded_house.jpeg` in the same directory.
+3. Open `FloodedHouse.m` in MATLAB and uncomment the relevant sections for the desired task.
 4. Run the script to view the results.
 
 ---
